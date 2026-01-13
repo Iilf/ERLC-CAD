@@ -1,0 +1,7 @@
+name = "dpsfd-cad"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB" # This is how you call it in your code
+database_name = "dpsfd-db"
+database_id = "e00a4c80-16a6-47db-bf10-e196474d174c"
