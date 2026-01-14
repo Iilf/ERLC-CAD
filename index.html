@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty State RP | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0a0f1d; color: #e2e8f0; font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(rgba(10, 15, 29, 0.7), rgba(10, 15, 29, 0.9)), url('https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=1600'); background-size: cover; background-position: center; }
+        .nav-link:hover { color: #3b82f6; transition: 0.3s; }
+        .btn-blue { background-color: #2563eb; transition: 0.3s; }
+        .btn-blue:hover { background-color: #1d4ed8; transform: translateY(-2px); }
+        .logo-img { height: 40px; width: auto; object-fit: contain; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="border-b border-blue-900/50 bg-[#0a0f1d]/90 sticky top-0 z-50 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <img src="image_9d1204.png" alt="Liberty State Logo" class="logo-img">
+                    <span class="text-xl font-bold tracking-tighter">LIBERTY<span class="text-blue-500">STATE</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="index.html" class="text-blue-500 nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="q-and-a.html" class="nav-link">Q&A</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div>
+                    <a href="https://discord.com/channels/1411852066187509873/" target="_blank" class="btn-blue px-5 py-2 rounded-lg font-bold text-sm shadow-lg shadow-blue-500/20">JOIN DISCORD</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient min-h-[70vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-3xl">
+            <div class="flex justify-center mb-6">
+                <img src="image_9d1204.png" alt="Liberty State Logo" class="h-32 w-auto animate-pulse">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Experience the Real <span class="text-blue-500">New York</span></h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8">Join the most immersive NYC-based roleplay community. From the bright lights of Times Square to the gritty streets of Brooklyn, your story starts here.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="btn-blue px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-play"></i> Play Now
+                </button>
+                <!-- Updated link to Q&A page -->
+                <a href="q-and-a.html" class="bg-white/10 hover:bg-white/20 border border-white/20 px-8 py-4 rounded-xl font-bold text-lg backdrop-blur-sm transition inline-block">
+                    Server Rules
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer class="bg-black py-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <a href="https://discord.com/channels/1411852066187509873/" target="_blank">
+                <img src="image_9d1204.png" alt="Liberty State Logo" class="h-12 w-auto mx-auto mb-4 opacity-50 grayscale hover:grayscale-0 transition cursor-pointer">
+            </a>
+            <p class="text-gray-500 text-sm">© 2026 Liberty State Roleplay. Not affiliated with Rockstar Games or Take-Two Interactive.</p>
+        </div>
+    </footer>
+</body>
+</html>

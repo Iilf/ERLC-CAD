@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Liberty State RP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #0a0f1d; color: #e2e8f0; font-family: 'Inter', sans-serif; }
+        .nav-link:hover { color: #3b82f6; transition: 0.3s; }
+        .logo-img { height: 40px; width: auto; object-fit: contain; }
+        .discord-card { background: linear-gradient(145deg, #161d2f 0%, #0a0f1d 100%); border: 1px solid rgba(59, 130, 246, 0.2); }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="border-b border-blue-900/50 bg-[#0a0f1d]/90 sticky top-0 z-50 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center space-x-3">
+                    <img src="image_9d1204.png" alt="Liberty State Logo" class="logo-img">
+                    <span class="text-xl font-bold tracking-tighter">LIBERTY<span class="text-blue-500">STATE</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="q-and-a.html" class="nav-link">Q&A</a>
+                    <a href="contact.html" class="text-blue-500 nav-link">Contact</a>
+                </div>
+                <div>
+                    <a href="https://discord.com/channels/1411852066187509873/" target="_blank" class="bg-blue-600 px-5 py-2 rounded-lg font-bold text-sm shadow-lg shadow-blue-500/20">JOIN DISCORD</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-4 py-16 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-5xl font-extrabold mb-6">Need <span class="text-blue-500">Support?</span></h1>
+            <p class="text-gray-400 text-xl mb-12">We have moved our entire support system to Discord to provide faster response times and better community interaction.</p>
+            
+            <div class="discord-card p-12 rounded-3xl shadow-2xl border border-blue-500/10">
+                <div class="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-blue-600/20">
+                    <i class="fa-brands fa-discord text-4xl text-white"></i>
+                </div>
+                <h2 class="text-3xl font-bold mb-4">Official Discord Server</h2>
+                <p class="text-gray-400 mb-8">Join our community to open support tickets, report bugs, or apply for whitelisted departments. Our staff team is available 24/7.</p>
+                
+                <a href="https://discord.com/channels/1411852066187509873/" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-extrabold px-10 py-4 rounded-xl transition transform hover:scale-105 shadow-xl shadow-blue-600/20">
+                    OPEN SUPPORT TICKET
+                </a>
+
+                <div class="mt-10 pt-8 border-t border-white/5 grid grid-cols-2 gap-4">
+                    <div class="text-left p-4">
+                        <h4 class="text-blue-400 font-bold mb-1">Staff Apps</h4>
+                        <p class="text-xs text-gray-500">Available in #applications</p>
+                    </div>
+                    <div class="text-left p-4">
+                        <h4 class="text-blue-400 font-bold mb-1">Bug Reports</h4>
+                        <p class="text-xs text-gray-500">Available in #bug-reports</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black py-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <a href="https://discord.com/channels/1411852066187509873/" target="_blank">
+                <img src="image_9d1204.png" alt="Liberty State Logo" class="h-12 w-auto mx-auto mb-4 opacity-50 grayscale hover:grayscale-0 transition cursor-pointer">
+            </a>
+            <p class="text-gray-500 text-sm">© 2026 Liberty State Roleplay. Not affiliated with Rockstar Games or Take-Two Interactive.</p>
+        </div>
+    </footer>
+</body>
+</html>
